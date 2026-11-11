@@ -6,7 +6,7 @@ Multi-page site + app wireframes for the service-bundling gift basket rewards pl
 - `index.html` — Home
 - `how-it-works.html` — Process explanation
 - `baskets.html` — Tiers & categories
-- `for-providers.html` — Banking, telecom, home security, medical, etc.
+- `for-providers.html` — Banking, telecom, home security, medical, liquor stores & manufacturers, etc.
 - `for-makers.html` — Basket makers
 - `app.html` — App wireframes & UI previews
 - `contact.html` — Early access form
