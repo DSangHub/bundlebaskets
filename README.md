@@ -12,6 +12,10 @@ Multi-page site + app wireframes for the service-bundling gift basket rewards pl
 - `contact.html` — Early access form
 - `styles.css` — Shared styles
 
+## Age Verification
+- `age-verification.js` — Client-side prototype gate for liquor baskets (21+).
+- Production should integrate a certified API (AgeChecker.Net, Veratad, Avalara Beverage Alcohol, or Yoti) that handles state-specific rules and audit trails.
+
 ## Images
 All visuals are in `imagine_images/`.
 

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Baskets & Tiers — BundleBaskets</title>
 <link rel="stylesheet" href="styles.css">
+<script src="age-verification.js" defer></script>
 </head>
 <body>
 <header>
@@ -53,7 +54,9 @@
     <div class="card"><h3>Gourmet Food</h3><p>Artisan cheeses, snacks, charcuterie, and treats.</p></div>
     <div class="card"><h3>Cosmetics & Self-Care</h3><p>Lotions, candles, bath sets, and wellness items.</p></div>
     <div class="card"><h3>Man Cave</h3><p>Grooming, snacks, accessories, and lifestyle items.</p></div>
-    <div class="card"><h3>Liquor Baskets</h3><p>Stores and manufacturers offer $19.95–$195 baskets. Build virtually, see qualifying bundles, pay any balance in cash. Age-verified by state law.</p></div>
+    <div class="card"><h3>Liquor Baskets</h3><p>Stores and manufacturers offer $19.95–$195 baskets. Build virtually, see qualifying bundles, pay any balance in cash. Age-verified by state law.</p>
+      <button class="btn btn-primary" style="margin-top:0.8rem;" data-age-gate onclick="requireAgeVerification(() => alert('Liquor basket builder unlocked. In production this opens the virtual basket with qualifying bundles.'))">Build Liquor Basket</button>
+    </div>
     <div class="card"><h3>Custom / Build-Your-Own</h3><p>Create any mix. Request a matching provider offer or pay the difference.</p></div>
     <div class="card"><h3>Business Rewards</h3><p>Larger baskets for commercial accounts and volume deals.</p></div>
   </div>
